@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Card Img Gallery</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        html{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .card{
+            display: inline-block;
+            width: 300px;
+            box-shadow: 4px 8px 8px silver;
+            border-radius: 5px;
+            margin: 5px;
+            background-color: rgb(72, 228, 163);
+        }
+        .card img{
+            width: 100%;
+            border-radius: 5px 5px 0 0;
+        }
+        .container{
+            text-align: center;
+            padding: 2px 16px;
+            color: rgb(231, 101, 101);
+        }
+        .container h4{
+            margin-bottom: 8px;
+        }
+        .container p{
+            margin-top: 12px;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Image Gallery Card</h2>
+    
+    <div class="card">
+        <img src="https://picsum.photos/id/10/250" alt="">
+        <div class="container">
+            <h4>Nice Picture</h4>
+            <p>A Beautiful Picture</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/id/1018/250" alt="">
+        <div class="container">
+            <h4>Nice Picture</h4>
+            <p>A Beautiful Picture</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/id/102/250" alt="">
+        <div class="container">
+            <h4>Nice Picture</h4>
+            <p>A Beautiful Picture</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/id/1020/250" alt="">
+        <div class="container">
+            <h4>Nice Picture</h4>
+            <p>A Beautiful Picture</p>
+        </div>
+    </div>
+
+</body>
+</html>
