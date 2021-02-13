@@ -112,7 +112,20 @@ footer{
     border: 1px solid #808080;
 
 }
+input:focus{
+    border-color: blue;
+}
 
+.button1:hover{
+    background-color: blue;
+    transition: 5ms;
+}
+
+.button2:hover{
+    background-color: green;
+    transition-delay: 5ms;
+    
+}
 #password{
     width: 332px;
     height: 50px;
