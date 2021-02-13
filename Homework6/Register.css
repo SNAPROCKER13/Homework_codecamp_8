@@ -112,7 +112,12 @@ footer{
     border: 1px solid #808080;
 
 }
-input:focus{
+#email:focus{
+    border-color: blue;
+}
+
+#password:focus
+{
     border-color: blue;
 }
 
